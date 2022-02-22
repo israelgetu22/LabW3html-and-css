@@ -5,22 +5,57 @@
 p {
   height: 50px;
   width: 400px;
-  padding: 30px;
-  margin: 70px 90px;
+  padding: 50px;
+  margin: 100px 90px;
   background-color: rgb(43, 67, 208);
   color: rgb(203, 236, 236);
+  float: right;
 }
 
 button {
   height: 30px;
   width: 70px;
-  padding: 10px;
+  padding: 5px;
   margin: 0 200px;
   background-color: rgb(208, 76, 197);
   color: rgb(203, 236, 236);
+}
+button:hover {
+  color: blue;
+  background-color: yellow;
+  display: block; 
+  margin-left: auto;
+  margin-left: auto'
 }
 
 h1 {
   font-size: 40px;
   font-family: sans-serif;
+}
+
+p {
+  height: 50px;
+  width: 400px;
+  padding: 50px;
+  margin: 100px 90px;
+  background-color: rgb(43, 67, 208);
+  box-shadow: 10px 5px 5px red;
+  box-sizing: border-box;
+  width: 800px;
+  border: solid #5b6dcd 10px;
+  padding: 60px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
